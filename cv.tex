@@ -1,0 +1,254 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Lucas}{Rod\'es-Guirao}{ \urlstyle{same}\url{http://lcsrg.me} \\
+\href{mailto:hi@lcsrg.me}{hi@lcsrg.me} | \href{tel:+46 765 772 056}{+46 (0) 765~772~056}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.54\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\runsubsection{National Institute of Informatics}
+\descript{Research Intern}
+\location{November 2017 -€“ present | Tokyo, Japan}
+Deep Learning for \textbf{\href{http://agora.ex.nii.ac.jp/~kitamoto/research/typhoon/}{Digital Typhoon Project}} under supervision of  \href{http://www.nii.ac.jp/en/faculty/digital_content/kitamoto_asanobu/}{\textbf{Prof. Kitamoto}} (Master Thesis)
+\sectionsep
+
+\runsubsection{Tracy}
+\descript{Software Developer}
+\location{April 2017- present | Stockholm, Sweden}
+Development and implementation of an AI/Machine learning based algorithm for pet-health IT device.
+\sectionsep
+
+\runsubsection{KTH Royal Intitute of Technology}
+\descript{Teaching Assistant}
+\location{January 2017 - October 2017 | Stockholm, Sweden}
+Assisting \href{http://www.csc.kth.se/~atsuto/}{\textbf{Prof. Atsuto Maki}} in \href{https://www.kth.se/social/course/DD2431/}{Machine Learning Course}.
+%    \item Member of a Research lab with 15 members.
+\sectionsep
+
+%\runsubsection{Cisco Systems}
+%\descript{Incubator Program FY16}
+%\location{Nov 2015 -€“ Feb 2016 | Barcelona, Spain}
+%EMEAR Engineer Incubator Program FY16
+%\sectionsep
+
+%\runsubsection{Fira Barcelona}
+%\descript{Volunteer Guide }
+%\location{November 2015 | Barcelona, Spain}
+%Smart City Expo World Comgres (SCEWC) 2015
+%\sectionsep
+
+\runsubsection{Karlsruhe Intitute of Technology}
+\descript{Research Assistant}
+\location{March 2015 -€“ July 2015 | Karlsruhe, Germany}
+Cognitive Radio under supervision of \textbf{\href{https://www.cel.kit.edu/english/team_jondral.php}{Univ.-Prof. Dr. rer.nat. Friedrich K. Jondral}} and \textbf{\href{https://www.cel.kit.edu/english/team_1316.php}{Ankit Kaushik}} (Baschelor Thesis).
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{KTH Royal Institute of Technology}
+\descript{M.Sc in Electrical Engineering}
+\location{Sept 2015 - Present  | Stockholm, Sweden}
+\location{ Cum GPA: 3.64/4 }
+%\location{ Cum. GPA: 8.76 / 10.00 }
+\sectionsep
+
+
+\subsection{Polytechnic University of Catalonia (UPC)}
+\descript{M.Eng in Telecommunications} 
+\location{ Sept 2015 - Present  | Barcelona, Spain}
+\location{ Cum GPA: 3.53/4 }
+\descript{B.Eng in Telecommunications}
+\location{ Sept 2011 - Sept 2015 | Barcelona, Spain}
+\location{ Cum GPA: 3.3/4 }
+\sectionsep
+
+\subsection{Deutsche Schule Barcelona}
+\location{Sept 2003 - June 2011  | Barcelona, Spain}
+\location{ Abitur: 2.5}
+High School
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\renewcommand\refname{\vskip -1cm} % Couldn't get this working from the .cls file
+\bibliographystyle{siam}
+\bibliography{publications}
+\nocite{*}
+
+%\section{Research}
+%\runsubsection{Square-Law Selector and Square-Law Combiner for Cognitive Radio Systems: An Experimental Study}
+%\descript{\href{https://www.cel.kit.edu/download/Kaushik2_VTC16.pdf}{Online resource}}
+%\location{\href{http://www.ieeevtc.org/vtc2016fall/}{Proceedings of IEEE 84th Vehicular Technology Conference (VTC), Sept 2016, Montreal, Canada}}
+%Worked with \textbf{\href{https://www.cel.kit.edu/english/team_1316.php}{Ankit Kaushik}},  \textbf{\href{http://wwwen.uni.lu/snt/people/shree_krishna_sharma}{Dr.  Shree Krishna Sharma}}, \textbf{\href{http://wwwen.uni.lu/snt/people/symeon_chatzinotas}{Dr.  Symeon Chatzinotas}} and \textbf{\href{https://www.cel.kit.edu/english/team_jondral.php}{Prof.  Friedrich K. Jondral}}  to implement and analyse the performance of  multiple antenna devices in the context of Cognitive Radio.
+\sectionsep
+
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+\begin{minipage}[t]{0.43\textwidth}
+\sectionsep
+\emph{In my freetime I enjoy cooking, running and learning to play ukulele.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+Github \href{https://github.com/lucasrodes}{\bf @lucasrodes} (check for projects)\\
+LinkedIn  \href{https://www.linkedin.com/in/lucasrodes}{\bf @lucasrodes} \\
+%Skype://  \href{callto:lucas.rodes}{\custombold{lucas.rodes}} \\
+Twitter  \href{https://www.twitter.com/lucasrodesg}{\bf @lucasrodesg} 
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Computer Science}
+Machine Learning \textbullet{} Artificial Neural Networks \textbullet{} Deep Learning \textbullet{} Artificial Intelligence \textbullet{} Algorithms \textbullet{} Information Retrieval  \textbullet{} Unix Tools and Scripting\\
+%Computer Vision \\
+\subsection{Electrical Engineering}
+Signals and Systems \textbullet{} Digital Signal Processing \textbullet{} Wireless Systems \textbullet{} Information Theory \textbullet{} Probability and Stochastic Processes\\
+
+\subsection{Online courses}
+Digital Signal Processing (Coursera) \textbullet{} Convolutional Neural Networks for Visual Recognition (Stanford) 
+%Getting Started with Python \textbullet{} Python Data Structures \textbullet{} Using Python to Access Web Data \textbullet{}\\
+
+%{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+Teamwork \textbullet{} Project Management \textbullet{} \\
+
+\subsection{Natural Languages}
+Native: Spanish, Catalan \\
+Fluent: English, German \\
+Elementary: Swedish\\
+
+\subsection{Programming}
+{Over 5000 lines:} Python \textbullet{}   Matlab  \textbullet{} \LaTeX  \textbullet{} Java  \\
+{Over 1000 lines:} SQL \textbullet{} Swift\\
+{Familiar:} C/C++ \textbullet{} HTML \textbullet{} Bash  \textbullet{} JavaScript\\
+\sectionsep
+
+\subsection{Tools \& Utilities}
+Git \textbullet{} ssh \textbullet{} Numpy/SciPy/Pandas/Scikit-learn \textbullet{} TensorFlow/Keras \textbullet{} Jupyter Notebook \textbullet{} ElasticSearch/Kibana \textbullet{} Xcode \textbullet{} Adobe Photoshop \textbullet{} Office \textbullet{} Logic \& Final Cut Pro \textbullet{} MacOS \textbullet{} GNU/Linux  \textbullet{} Blogging\\
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXTRA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extra}
+
+\begin{tabular}{rll}
+Member & \textbf{\href{www.telecos.cat}{Telecos.cat}} Regional Society\\
+Guide & \textbf{\href{http://www.smartcityexpo.com/en/}{Smart City Expo World Comgres 2015}}\\
+President & Youth Association \textbf{\href{www.enkbronats.cat}{EnKbronats}} \\
+& (Cabrera de Mar, Sept 2013 - Sept 2016) \\
+Volunteering &  \textbf{\href{http://www.sjvietnam.org/}{SJ Vietnam}} (Hanoi, August 2014)\\
+DJ/Producer & Freelance, \textbf{\href{http://www.alfaru.es/}{Al-Faru}} and \textbf{\href{http://www.bewater.cat/}{Be Water}}\\
+Teacher & Maths/Physics for high school students
+\end{tabular}\\
+
+\sectionsep
+
+
+\end{minipage}
+\end{document} \documentclass[]{article}
