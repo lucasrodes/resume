@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.22)  18 NOV 2018 12:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.22)  16 JUN 2019 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,16 +1423,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--227
 . Font "Helvetica" does not contain any OpenType `Script' information.
 .................................................
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 229.
+(Font)              <7> on input line 231.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 229.
+(Font)              <5> on input line 231.
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--233
+
+ []
+
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font "Helvetica" does not contain any OpenType `Script' information.
 .................................................
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+\TU/HelveticaLight(0)/m/sc/10 compose, CI, unittest, GNU/Linux, MacOS,
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 237--240
+\TU/HelveticaLight(0)/m/sc/10 Google Cloud (BigQuery, Storage, AI Platform),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+\TU/HelveticaLight(0)/m/sc/10 numpy/scipy/pandas/sklearn/tensorflow/keras,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
@@ -1442,23 +1462,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--236
 . Font "Helvetica Light" does not contain any OpenType `Script' information.
 .................................................
 
-Overfull \hbox (28.67387pt too wide) in paragraph at lines 245--254
+Overfull \hbox (28.67387pt too wide) in paragraph at lines 249--258
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 249--258
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 263.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1467,7 +1487,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
  23222 strings out of 492998

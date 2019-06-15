@@ -53,10 +53,10 @@ Last Updated on
 \newcommand{\namesection}[3]{
     \centering{
         \sffamily
-        \fontspec{Helvetica Neue UltraLight}\fontsize{20pt}{1cm}\selectfont #1
+        \fontspec{Helvetica Neue UltraLight}\fontsize{16pt}{1cm}\selectfont #1
         \fontspec{Helvetica Neue Light}\selectfont #2
     } \\
-    \vspace{2.5pt}
+    \vspace{1.5pt}
     \centering{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #3}
     \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
     \vspace{-15pt}
