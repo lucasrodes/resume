@@ -47,6 +47,7 @@
 
 \documentclass[]{deedy-resume}
 \usepackage{fancyhdr}
+%\usepackage[style=authoryear]{biblatex}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -66,8 +67,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Lucas}{Rod\'es-Guirao}{ \urlstyle{same}\url{http://lcsrg.me} \\
-\href{mailto:hi@lcsrg.me}{hi@lcsrg.me} | \href{tel:+46 765 772 056}{+46 (0) 765~772~056}
+\namesection{Lucas}{Rod\'es-Guirao}{ 
+\urlstyle{same}\url{http://lcsrg.me} | \href{mailto:hi@lcsrg.me}{hi@lcsrg.me}% | \href{tel:+46 765 772 056}{+34 (0) 765~772~056}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -76,34 +77,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{minipage}[t]{0.54\textwidth}
+\sectionsep
+\sectionsep
+%\vspace*{5pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experience}
 
-\runsubsection{eDreams Odigeo}
+\runsubsection{eDreams Odigeo} \\
 \descript{Data Scientist}
 \location{June 2018 - present | Barcelona, Spain}
-Applying Machine Learning throughout the organisation.
+\textsec{Applying Machine Learning throughout the organisation.}
 \sectionsep
 
-\runsubsection{National Institute of Informatics}
+\runsubsection{National Institute of Informatics} \\
 \descript{Research Intern}
 \location{November 2017 - May 2018 | Tokyo, Japan}
-Deep Learning for \textbf{\href{http://agora.ex.nii.ac.jp/~kitamoto/research/typhoon/}{Digital Typhoon Project}} under supervision of  \href{http://www.nii.ac.jp/en/faculty/digital_content/kitamoto_asanobu/}{\textbf{Prof. Kitamoto}} (Master Thesis)
+\textsec{Deep Learning for \href{http://agora.ex.nii.ac.jp/~kitamoto/research/typhoon/}{Digital Typhoon Project} under supervision of  \href{http://www.nii.ac.jp/en/faculty/digital_content/kitamoto_asanobu/}{Prof. Kitamoto} (Master Thesis).}
 \sectionsep
 
-\runsubsection{Tracy}
+\runsubsection{Tracy} \\
 \descript{Software Developer}
 \location{April 2017- March 2018 | Stockholm, Sweden}
-AI/Machine learning based algorithm for pet-health IT device.
+\textsec{AI/Machine learning based algorithm for pet-health IT device.}
 \sectionsep
 
-\runsubsection{KTH Royal Intitute of Technology}
+\runsubsection{KTH Royal Institute of Technology} \\
 \descript{Teaching Assistant}
 \location{January 2017 - October 2017 | Stockholm, Sweden}
-Assisting \href{http://www.csc.kth.se/~atsuto/}{\textbf{Prof. Atsuto Maki}} in \href{https://www.kth.se/social/course/DD2431/}{Machine Learning Course}.
+\textsec{Assisting \href{http://www.csc.kth.se/~atsuto/}{\textbf{Prof. Atsuto Maki}} in \href{https://www.kth.se/social/course/DD2431/}{Machine Learning Course}.}
 %    \item Member of a Research lab with 15 members.
 \sectionsep
 
@@ -119,10 +123,10 @@ Assisting \href{http://www.csc.kth.se/~atsuto/}{\textbf{Prof. Atsuto Maki}} in \
 %Smart City Expo World Comgres (SCEWC) 2015
 %\sectionsep
 
-\runsubsection{Karlsruhe Intitute of Technology}
+\runsubsection{Karlsruhe Institute of Technology} \\
 \descript{Research Assistant}
 \location{March 2015 - July 2015 | Karlsruhe, Germany}
-Cognitive Radio under supervision of \textbf{\href{https://www.cel.kit.edu/english/team_jondral.php}{Univ.-Prof. Dr. rer.nat. Friedrich K. Jondral}} and \textbf{\href{https://www.cel.kit.edu/english/team_1316.php}{Ankit Kaushik}} (Baschelor Thesis).
+\textsec{Cognitive Radio under supervision of \textbf{\href{https://www.cel.kit.edu/english/team_jondral.php}{Univ.-Prof. Dr. rer.nat. Friedrich K. Jondral}} and \textbf{\href{https://www.cel.kit.edu/english/team_1316.php}{Ankit Kaushik}} (Baschelor Thesis).}
 
 \sectionsep
 
@@ -133,45 +137,52 @@ Cognitive Radio under supervision of \textbf{\href{https://www.cel.kit.edu/engli
 
 \section{Education}
 
-\subsection{KTH Royal Institute of Technology}
+\runsubsection{KTH Royal Institute of Technology} \\
 \descript{M.Sc in Electrical Engineering}
 \location{Sept 2015 - June 2018  | Stockholm, Sweden}
-\location{ Cum GPA: 3.64/4 }
+\textsec{ Cum GPA: 3.64/4 }
 %\location{ Cum. GPA: 8.76 / 10.00 }
 \sectionsep
 
 
-\subsection{Polytechnic University of Catalonia (UPC)}
+\runsubsection{Polytechnic University of Catalonia} \\
 \descript{M.Eng in Telecommunications} 
 \location{ Sept 2015 - June 2018  | Barcelona, Spain}
-\location{ Cum GPA: 3.53/4 }
+\textsec{Cum GPA: 3.53/4}
+
 \descript{B.Eng in Telecommunications}
 \location{ Sept 2011 - Sept 2015 | Barcelona, Spain}
-\location{ Cum GPA: 3.3/4 }
+\textsec{Cum GPA: 3.3/4}
 \sectionsep
 
-\subsection{Deutsche Schule Barcelona}
+\runsubsection{Deutsche Schule Barcelona} \\
 \location{Sept 2003 - June 2011  | Barcelona, Spain}
-\location{ Abitur: 2.5}
-High School
+\textsec{Abitur: 2.5 (High School)}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\definecolor{dark5}{HTML}{666666}
+
+
 \section{Publications}
+\sectionsep
+{\fontspec[Path = fonts/lato/]{Lato-Lig}\color{dark5} \small \fontsize{10pt}{12pt}
 \renewcommand\refname{\vskip -1cm} % Couldn't get this working from the .cls file
 \bibliographystyle{siam}
-\bibliography{publications}
+\bibliography{publications}}
 \nocite{*}
+
+\sectionsep
 
 %\section{Research}
 %\runsubsection{Square-Law Selector and Square-Law Combiner for Cognitive Radio Systems: An Experimental Study}
 %\descript{\href{https://www.cel.kit.edu/download/Kaushik2_VTC16.pdf}{Online resource}}
 %\location{\href{http://www.ieeevtc.org/vtc2016fall/}{Proceedings of IEEE 84th Vehicular Technology Conference (VTC), Sept 2016, Montreal, Canada}}
 %Worked with \textbf{\href{https://www.cel.kit.edu/english/team_1316.php}{Ankit Kaushik}},  \textbf{\href{http://wwwen.uni.lu/snt/people/shree_krishna_sharma}{Dr.  Shree Krishna Sharma}}, \textbf{\href{http://wwwen.uni.lu/snt/people/symeon_chatzinotas}{Dr.  Symeon Chatzinotas}} and \textbf{\href{https://www.cel.kit.edu/english/team_jondral.php}{Prof.  Friedrich K. Jondral}}  to implement and analyse the performance of  multiple antenna devices in the context of Cognitive Radio.
-\sectionsep
 
 \end{minipage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -182,17 +193,17 @@ High School
 \hfill
 \begin{minipage}[t]{0.43\textwidth}
 \sectionsep
-\emph{In my freetime I enjoy cooking, running and learning to play ukulele.}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links}
-Github \href{https://github.com/lucasrodes}{\bf @lucasrodes} (check for projects)\\
-LinkedIn  \href{https://www.linkedin.com/in/lucasrodes}{\bf @lucasrodes} \\
+\textsec{Github \href{https://github.com/lucasrodes}{\bf @lucasrodes} (check for projects)}
+\textsec{LinkedIn  \href{https://www.linkedin.com/in/lucasrodes}{\bf @lucasrodes}}
 %Skype://  \href{callto:lucas.rodes}{\custombold{lucas.rodes}} \\
-Twitter  \href{https://www.twitter.com/lucasrodesg}{\bf @lucasrodesg} 
+\textsec{Twitter  \href{https://www.twitter.com/lucasrodesg}{\bf @lucasrodesg}}
 %\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -201,14 +212,17 @@ Twitter  \href{https://www.twitter.com/lucasrodesg}{\bf @lucasrodesg}
 
 \section{Coursework}
 
-\subsection{Computer Science}
-Machine Learning \textbullet{} Artificial Neural Networks \textbullet{} Deep Learning \textbullet{} Artificial Intelligence \textbullet{} Algorithms \textbullet{} Information Retrieval  \textbullet{} Unix Tools and Scripting\\
+\runsubsection{Computer Science} \\
+\textsec{Machine Learning, Artificial Neural Networks, Deep Learning, Artificial Intelligence, Algorithms, Information Retrieval, Unix Systems and Scripting.}
+\sectionsep
 %Computer Vision \\
-\subsection{Electrical Engineering}
-Signals and Systems \textbullet{} Digital Signal Processing \textbullet{} Wireless Systems \textbullet{} Information Theory \textbullet{} Probability and Stochastic Processes\\
-
-\subsection{Online courses}
-Digital Signal Processing (Coursera) \textbullet{} Convolutional Neural Networks for Visual Recognition (Stanford) 
+\runsubsection{Electrical Engineering} \\
+\textsec{Signals and Systems, Digital Signal Processing, Wireless Systems, Information Theory, Probability and Stochastic Processes.}
+\sectionsep
+ 
+\runsubsection{Online courses} \\
+\textsec{Digital Signal Processing (Coursera), Convolutional Neural Networks for Visual Recognition (Stanford).}
+\sectionsep
 %Getting Started with Python \textbullet{} Python Data Structures \textbullet{} Using Python to Access Web Data \textbullet{}\\
 
 %{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
@@ -218,25 +232,24 @@ Digital Signal Processing (Coursera) \textbullet{} Convolutional Neural Networks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-Teamwork \textbullet{} Project Management \textbullet{} Code documentation\\
+\textsec{Teamwork, project management, programing good practices, assertive when required.}
+\sectionsep
 
-\subsection{Natural Languages}
-Native: Spanish, Catalan \\
-Fluent: English, German \\
-Elementary: Swedish\\
+\runsubsection{Natural Languages} \\
+\textsec{Native: Spanish, Catalan}
+\textsec{Fluent: English, German}
+\textsec{Elementary: Swedish}
+\sectionsep
 
-
-\subsection{Programming}
-{Advanced:} Python \\
-{Confident:} Bash, SQL, Matlab, \LaTeX\\
-{Familiar:} Java, C/C++, HTML, Swift, JavaScript, CSS\\
+\runsubsection{Programming Languages} \\
+\locationnb{Advanced:}\textsec{Python}
+\locationnb{Confident:}\textsec{Bash, SQL, JavaScript/TypeScript, Matlab, \LaTeX}
+\locationnb{Familiar:}{CSS, HTML, R, Java, C}
 
 \sectionsep
 
-\subsection{Tools \& Utilities}
-git/mercurial, GitHub/BitBucket, ssh, docker/docker-compose, CI, unittest, GNU/Linux, MacOS, Google Cloud (BigQuery,
-Storage, AI Platform), numpy/scipy/pandas/sklearn/tensorflow/keras, GPU, Pycharm, Xcode, Adobe Photoshop,
-Microsoft Office, Logic Pro, Blogging\\
+\runsubsection{Tools \& Utilities} \\
+\textsec{Git/Mercurial, ssh, Docker, CI/CD, unit testing, GNU/linux, MacOS, Google Cloud Platform (BigQuery, Storage, AI Platform), numpy/scipy/pandas/sklearn/tensorflow/keras/xgboost, GPU, react native, JetBrains, VS Code, Xcode, Jira, Adobe Photoshop, Microsoft Office, Logic Pro, Blogging.}
 
 \sectionsep
 
@@ -246,17 +259,21 @@ Microsoft Office, Logic Pro, Blogging\\
 
 \section{Extra}
 
+{\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}
 \begin{tabular}{rll}
 Member & \textbf{\href{www.telecos.cat}{Telecos.cat}} Regional Society\\
 Guide & \textbf{\href{http://www.smartcityexpo.com/en/}{Smart City Expo World Congress 2015}}\\
 Organiser & Youth Association enkbronats \\
-& (Cabrera de Mar, Sept 2013 - Sept 2016) \\
+& (Cabrera de Mar, Sept 2013 - Sept 2019) \\
 Volunteering &  \textbf{\href{http://www.sjvietnam.org/}{SJ Vietnam}} (Hanoi, August 2014)\\
-DJ/Producer & Freelance, \textbf{\href{http://www.alfaru.es/}{Al-Faru}} and \textbf{\href{http://www.bewater.cat/}{Be Water}}\\
+DJ/Producer & Freelance, Al-Faru and Be Water\\
 Teacher & Maths/Physics for high school students
 \end{tabular}\\
+}
 
 \sectionsep
+\sectionsep
+\textsecita{In my freetime I enjoy cooking and playing the ukulele.}
 
 
 \end{minipage}
