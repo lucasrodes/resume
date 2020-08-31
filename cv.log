@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.22)  16 JUN 2019 01:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.22)  31 AUG 2020 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,6 +205,8 @@ tly
 )
 \Hy@SectionHShift=\skip43
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box27
@@ -741,89 +743,56 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-\g__fontspec_family_HelveticaLight_int=\count272
+\g__fontspec_family_Lato-Lig_int=\count272
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'HelveticaLight(0)' created for font 'Helvetica Light' with
-. options [Mapping=tex-text,Ligatures=TeX,Color=primary].
+. Font family 'Lato-Lig(0)' created for font 'Lato-Lig' with options
+. [Mapping=tex-text,Ligatures=TeX,Color=primary,Path = fonts/lato/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Helvetica
-. Light/AAT:mapping=tex-text;color=2B2B2BFF ;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-Lig]/OT:script=latn;language=DFLT;mapping=tex-text;color
+=2B2B2BFF
+. ;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"Helvetica
-. Light/B/AAT:mapping=tex-text;color=2B2B2BFF ;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"Helvetica
-. Light/I/AAT:mapping=tex-text;color=2B2B2BFF ;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Helvetica
-. Light/BI/AAT:mapping=tex-text;color=2B2B2BFF ;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 33.
+LaTeX Info: Redefining \rmfamily on input line 47.
 .................................................
-. fontspec info: "no-scripts"
+. fontspec info: "set-scale"
 . 
-. Font "Helvetica Neue UltraLight" does not contain any OpenType `Script'
-. information.
+. Raleway-ExtraLight scale = 0.9567325044675999.
+.................................................
+\g__fontspec_family_Raleway-ExtraLight_int=\count273
+.................................................
+. fontspec info: "set-scale"
+. 
+. Raleway-ExtraLight scale = 0.9567325044675999.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Helvetica Neue UltraLight scale = 1.007693349906042.
-.................................................
-\g__fontspec_family_HelveticaNeueUltraLight_int=\count273
-.................................................
-. fontspec info: "set-scale"
-. 
-. Helvetica Neue UltraLight scale = 1.007693349906042.
-.................................................
-.................................................
-. fontspec info: "set-scale"
-. 
-. Helvetica Neue UltraLight/B scale = 1.013541496941239.
-.................................................
-.................................................
-. fontspec info: "set-scale"
-. 
-. Helvetica Neue UltraLight/I scale = 1.001912303461767.
-.................................................
-.................................................
-. fontspec info: "set-scale"
-. 
-. Helvetica Neue UltraLight/BI scale = 1.013541496941239.
+. Raleway-ExtraLight scale = 0.9567325044675999.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'HelveticaNeueUltraLight(0)' created for font 'Helvetica Neue
-. UltraLight' with options
-. [Mapping=tex-text,Ligatures=TeX,Scale=MatchLowercase,Mapping=tex-text].
+. Font family 'Raleway-ExtraLight(0)' created for font 'Raleway-ExtraLight'
+. with options
+. [Mapping=tex-text,Ligatures=TeX,Scale=MatchLowercase,Mapping=tex-text,Path =
+. fonts/raleway/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->s*[1.007693349906042]"Helvetica Neue
-. UltraLight/AAT:mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->s*[1.013541496941239]"Helvetica Neue
-. UltraLight/B/AAT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->s*[1.001912303461767]"Helvetica Neue
-. UltraLight/I/AAT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->s*[1.013541496941239]"Helvetica
-. Neue UltraLight/BI/AAT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[0.9567325044675999]"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;l
+anguage=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[0.9567325044675999]"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;l
+anguage=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 48.
 
 TextBlockOrigin set to 0mm x 2.5mm
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -842,30 +811,30 @@ s
 (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 56.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 56.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -902,7 +871,7 @@ LaTeX Font Info:    ... okay on input line 55.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring ON on input line 56.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -911,9 +880,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count274
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write3
@@ -928,557 +897,219 @@ isodate: babel.sty has been loaded
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
-LaTeX Font Info:    Redeclaring math accent \check on input line 55.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 56.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 56.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 56.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 56.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 56.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 56.
+LaTeX Font Info:    Redeclaring math accent \check on input line 56.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 56.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 56.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 55.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/HelveticaLight(0)/m/n on input line 
-55.
+(Font)                  OT1/cmr/m/n --> TU/Lato-Lig(0)/m/n on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 55.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/HelveticaLight(0)/m/n on input line
- 55.
+(Font)                  OT1/cmr/bx/n --> TU/Lato-Lig(0)/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/HelveticaLight(0)/m/n --> TU/HelveticaLight(0)/m/n o
-n input line 55.
+(Font)                  TU/Lato-Lig(0)/m/n --> TU/Lato-Lig(0)/m/n on input line
+ 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/HelveticaLight(0)/m/it on input lin
-e 55.
+(Font)                  OT1/cmr/m/it --> TU/Lato-Lig(0)/m/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/HelveticaLight(0)/bx/n on input lin
-e 55.
+(Font)                  OT1/cmr/bx/n --> TU/Lato-Lig(0)/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/HelveticaNeueUltraLight(0)/m/n on i
-nput line 55.
+(Font)                  OT1/cmss/m/n --> TU/Raleway-ExtraLight(0)/m/n on input 
+line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/HelveticaLight(0)/m/n --> TU/HelveticaLight(0)/bx/n 
-on input line 55.
+(Font)                  TU/Lato-Lig(0)/m/n --> TU/Lato-Lig(0)/bx/n on input lin
+e 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/HelveticaLight(0)/bx/it on input l
-ine 55.
+(Font)                  OT1/cmr/bx/it --> TU/Lato-Lig(0)/bx/it on input line 56
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/HelveticaNeueUltraLight(0)/bx/n on
- input line 55.
+(Font)                  OT1/cmss/bx/n --> TU/Raleway-ExtraLight(0)/bx/n on inpu
+t line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 55.
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Neue Light" does not contain any OpenType `Script'
-. information.
-.................................................
-\g__fontspec_family_HelveticaNeueLight_int=\count275
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 56.
+\g__fontspec_family_Lato-Reg_int=\count275
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'HelveticaNeueLight(0)' created for font 'Helvetica Neue Light'
-. with options [Mapping=tex-text].
+. Font family 'Lato-Reg(0)' created for font 'Lato-Reg' with options
+. [Mapping=tex-text,Path = fonts/lato/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Helvetica Neue
-. Light/AAT:mapping=tex-text;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-Reg]/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"Helvetica Neue
-. Light/B/AAT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"Helvetica Neue
-. Light/I/AAT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Helvetica Neue
-. Light/BI/AAT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Font shape `TU/HelveticaNeueUltraLight(0)/m/n' will be
-(Font)              scaled to size 10.0769pt on input line 71.
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Neue UltraLight" does not contain any OpenType `Script'
-. information.
-.................................................
+LaTeX Font Info:    Font shape `TU/Raleway-ExtraLight(0)/m/n' will be
+(Font)              scaled to size 9.56726pt on input line 72.
+\g__fontspec_family_Lato-Bol_int=\count276
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'HelveticaNeueUltraLight(1)' created for font 'Helvetica Neue
-. UltraLight' with options [Mapping=tex-text].
+. Font family 'Lato-Bol(0)' created for font 'Lato-Bol' with options
+. [Mapping=tex-text,Path = fonts/lato/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Helvetica Neue
-. UltraLight/AAT:mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"Helvetica Neue
-. UltraLight/B/AAT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"Helvetica Neue
-. UltraLight/I/AAT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Helvetica Neue
-. UltraLight/BI/AAT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Neue Light" does not contain any OpenType `Script'
-. information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-\g__fontspec_family_HeitiTCMedium_int=\count276
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti TC Medium/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti TC Medium/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti TC Medium/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'HeitiTCMedium(0)' created for font 'Heiti TC Medium' with
-. options [Mapping=tex-text].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"Heiti TC Medium/AAT:mapping=tex-text;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-Bol]/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 71.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 72.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 71.
+(Font)              size <5> substituted on input line 72.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 71.
+(Font)              size <5> substituted on input line 72.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 71.
+(Font)              <11> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 71.
+(Font)              <7.69997> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 71.
+(Font)              <5.5> on input line 72.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 71.
+(Font)              size <5> substituted on input line 72.
 
 
-LaTeX Font Warning: Font shape `TU/HelveticaLight(0)/m/sc' undefined
-(Font)              using `TU/HelveticaLight(0)/m/n' instead on input line 83.
+LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/sc' undefined
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 86.
 
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
+\g__fontspec_family_Lato-Bla_int=\count277
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'HelveticaLight(1)' created for font 'Helvetica Light' with
-. options [Mapping=tex-text].
+. Font family 'Lato-Bla(0)' created for font 'Lato-Bla' with options
+. [Mapping=tex-text,Path = fonts/lato/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Helvetica Light/AAT:mapping=tex-text;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-Bla]/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"Helvetica
-. Light/B/AAT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"Helvetica
-. Light/I/AAT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Helvetica
-. Light/BI/AAT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 
-LaTeX Font Warning: Font shape `TU/HelveticaLight(1)/m/sc' undefined
-(Font)              using `TU/HelveticaLight(1)/m/n' instead on input line 83.
+LaTeX Font Warning: Font shape `TU/Lato-Bla(0)/m/sc' undefined
+(Font)              using `TU/Lato-Bla(0)/m/n' instead on input line 86.
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-\g__fontspec_family_Helvetica_int=\count277
+
+LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/bx/n' undefined
+(Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 88.
+
+
+LaTeX Font Warning: Font shape `TU/Lato-Reg(0)/m/sc' undefined
+(Font)              using `TU/Lato-Reg(0)/m/n' instead on input line 89.
+
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Helvetica(0)' created for font 'Helvetica' with options
-. [Mapping=tex-text].
+. Font family 'Lato-Lig(1)' created for font 'Lato-Lig' with options
+. [Mapping=tex-text,Path = fonts/lato/].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Helvetica/AAT:mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"Helvetica/B/AAT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"Helvetica/I/AAT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.:
-. <->"Helvetica/BI/AAT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-\g__fontspec_family_HeitiSCMedium_int=\count278
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti SC Medium/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti SC Medium/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Heiti SC Medium/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'HeitiSCMedium(0)' created for font 'Heiti SC Medium' with
-. options [Mapping=tex-text].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"Heiti SC Medium/AAT:mapping=tex-text;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-Lig]/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 
+LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/bx/n' undefined
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 109.
 
-LaTeX Font Warning: Font shape `TU/HeitiSCMedium(0)/m/sc' undefined
-(Font)              using `TU/HeitiSCMedium(0)/m/n' instead on input line 86.
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-
-LaTeX Font Warning: Font shape `TU/HeitiTCMedium(0)/m/sc' undefined
-(Font)              using `TU/HeitiTCMedium(0)/m/n' instead on input line 87.
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti SC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Heiti TC Medium" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
 (./cv.bbl
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
+
+LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/m/sc' undefined
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/m/it' undefined
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 5.
+
 )
+
+LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/bx/n' undefined
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 202.
+
+\g__fontspec_family_Raleway-Medium_int=\count278
 .................................................
-. fontspec info: "no-scripts"
+. fontspec info: "defining-font"
 . 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-
-Underfull \hbox (badness 1838) in paragraph at lines 205--207
-[]\TU/HelveticaLight(0)/m/sc/10 Machine Learning • Artificial Neural Networks •
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
-
- []
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
-.................................................
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
-
- []
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica" does not contain any OpenType `Script' information.
+. Font family 'Raleway-Medium(0)' created for font 'Raleway-Medium' with
+. options [Mapping=tex-text,Path = fonts/raleway/].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/raleway/Raleway-Medium]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"[fonts/raleway/Raleway-Medium]/OT:script=latn;language=DFLT;+smcp;mapping
+=tex-text;"
 .................................................
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 231.
+(Font)              <7> on input line 245.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 231.
+(Font)              <5> on input line 245.
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--233
-
+Overfull \hbox (7.21323pt too wide) in paragraph at lines 262--270
+[][]  
  []
 
+\g__fontspec_family_Lato-LigIta_int=\count279
 .................................................
-. fontspec info: "no-scripts"
+. fontspec info: "defining-font"
 . 
-. Font "Helvetica" does not contain any OpenType `Script' information.
+. Font family 'Lato-LigIta(0)' created for font 'Lato-LigIta' with options
+. [Mapping=tex-text,Path = fonts/lato/].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[fonts/lato/Lato-LigIta]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
-\TU/HelveticaLight(0)/m/sc/10 compose, CI, unittest, GNU/Linux, MacOS,
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 237--240
-\TU/HelveticaLight(0)/m/sc/10 Google Cloud (BigQuery, Storage, AI Platform),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
-\TU/HelveticaLight(0)/m/sc/10 numpy/scipy/pandas/sklearn/tensorflow/keras,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
-
- []
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Helvetica Light" does not contain any OpenType `Script' information.
-.................................................
-
-Overfull \hbox (28.67387pt too wide) in paragraph at lines 249--258
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 413.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 413.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1487,15 +1118,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 413.
  ) 
 Here is how much of TeX's memory you used:
- 23222 strings out of 492998
- 426455 string characters out of 6134491
- 521705 words of memory out of 5000000
- 26971 multiletter control sequences out of 15000+600000
- 532900 words of font info for 84 fonts, out of 8000000 for 9000
+ 23140 strings out of 492998
+ 424921 string characters out of 6134491
+ 520304 words of memory out of 5000000
+ 26929 multiletter control sequences out of 15000+600000
+ 532796 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,11n,119p,10360b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,12n,119p,10360b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (1 page).
+Output written on cv.pdf (2 pages).
