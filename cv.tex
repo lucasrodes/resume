@@ -241,7 +241,7 @@
 \sectionsep
 
 \runsubsection{Tools \& Utilities} \\
-\textsec{Git/Mercurial, ssh, docker, GitHub/Bitbucket, unit testing, A/B testing, GNU/Linux, CI/CD (Travis, Jenkins), Google Cloud Platform, numpy/scipy, pandas/dask, sklearn, tensorflow/keras, xgboost, plotly/bokeh, cookiecutter, GPU, React Native, Raspberry PI, JetBrains, VS Code, Jira/Confluence, Trello, Adobe Photoshop, Logic Pro, Blogging, DaVinci Resolve.}
+\textsec{Git/Mercurial, ssh, docker, GitHub/Bitbucket, unit testing, A/B testing, GNU/Linux, CI/CD (Travis, Jenkins), Google Cloud Platform, numpy/scipy, pandas/dask, sklearn, tensorflow/keras, xgboost, plotly/bokeh, cookiecutter, GPU, React Native, Raspberry PI, JetBrains, VS Code, Jira/Confluence, Trello, Adobe Photoshop, Logic Pro, Blogging, DaVinci Resolve, Raspberry PI.}
 
 \sectionsep
 
@@ -300,12 +300,20 @@ Open Source & pandas (contributor), whatstk (author)
 \sectionsep
 {\fontspec[Path = fonts/lato/]{Lato-Lig}\color{dark5} \small \fontsize{10pt}{12pt}
 \renewcommand\refname{\vskip -1cm} % Couldn't get this working from the .cls file
-\bibliographystyle{siam}
+\bibliographystyle{unsrt}
 \bibliography{publications}}
 \nocite{*}
 
 \sectionsep
 \section{Projects}
+\sectionsep
+
+\runsubsection{COVID-19 vaccination dataset}
+\descript{Our World in Data} 
+\location{ Jan 2021 - Present}
+\textsec{\href{https://www.ourworldindata.org/coronavirus}{website} | \href{https://www.github.com/owid/covid-19-data}{github}\\
+Maintainance and data management of global COVID-19 vaccination dataset.
+}
 \sectionsep
 
 \runsubsection{Odisi}
@@ -333,12 +341,10 @@ Distributed under the GPL-3.0 license.}
 
 \runsubsection{Virtual Interlining}
 \descript{eDreams ODIGEO} 
-\location{ Sep 2018 - Jan 2019, Oct 2019 - Present  | Barcelona, Spain}
+\location{ Sep 2018 - Jan 2019, Oct 2019 - March 2021  | Barcelona, Spain}
 \textsec{\href{https://www.connectionreview.com/blog/virtual-interlining-in-aviation-what-it-means-exactly--30}{virtual interlining info}\\
 Create new content combining flights/segments from different data sources (e.g. different carriers, providers etc.)
-using Machine Learning. Exploratory data analysis, training/hyper-parameter tuning, productionalisation, testing,
-versioning and maintainance of the model, analysis on the results from A/B tests, etc. Working with Data Engineer,
-Backend Engineers and Business.}
+using Machine Learning.}
 \sectionsep
 
 \runsubsection{Deep Learning for Digital Typhoon}
@@ -351,13 +357,6 @@ Deep Learning and Computer Vision applied to a typhoon satellite image dataset. 
 }
 \sectionsep
 
-\runsubsection{Deep Koalarization}
-\descript{Academic (KTH Royal Insitute of Technology)} 
-\location{ Jun 2017 - Dec 2017  | Stockholm, Sweden}
-\textsec{\href{https://lcsrg.me/deep-koalarization}{website} | 
-\href{https://github.com/baldassarreFe/deep-koalarization}{github} | \href{https://arxiv.org/abs/1712.03400}{paper}\\
-\href{https://twitter.com/fchollet/status/917846097430638592?s=20}{Acknowledged by Keras creator François Chollet}, we
-review recent approaches to colorize gray-scale images using deep learning methods and propose a novel colorization model.}
 \end{minipage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COLUMN 2
@@ -366,6 +365,15 @@ review recent approaches to colorize gray-scale images using deep learning metho
 \begin{minipage}[t]{0.48\textwidth}
 \sectionsep
 \sectionsep
+
+\runsubsection{Deep Koalarization}
+\descript{Academic (KTH Royal Insitute of Technology)} 
+\location{ Jun 2017 - Dec 2017  | Stockholm, Sweden}
+\textsec{\href{https://lcsrg.me/deep-koalarization}{website} | 
+\href{https://github.com/baldassarreFe/deep-koalarization}{github} | \href{https://arxiv.org/abs/1712.03400}{paper}\\
+\href{https://twitter.com/fchollet/status/917846097430638592?s=20}{Acknowledged} by Keras creator François Chollet, we
+review recent approaches to colorize gray-scale images using deep learning methods and propose a novel colorization
+model.}
 
 \runsubsection{Sensor Motion Data Exploration}
 \descript{Tracy Trackers} 
@@ -383,17 +391,6 @@ Start-up. Data collection, data cleaning, Cloud architecture discussions, Start-
 Visualization of President Trump Tweets using Kibana and ElasticSearch. This project was developed as part of the DD2476 Search Engines and Information Retrieval Systems course at KTH Royal Institute of Technology, spring 2017.}
 \sectionsep
 
-\runsubsection{Kernel PCA for Denoising}
-\descript{Academic (KTH Royal Insitute of Technology)} 
-\location{ Nov 2016 - Jan 2017  | Stockholm, Germany}
-\textsec{\href{https://github.com/lucasrodes/kPCA-denoising-python/blob/master/docs/report.pdf}{report} |
-\href{https://github.com/lucasrodes/kPCA-denoising-python}{github} |
-\href{https://alex.smola.org/papers/1999/MikSchSmoMuletal99.pdf}{original paper}\\
-We reproduced the experiments presented in the paper Kernel PCA and De-noising in Feature Spaces by Sebastian Mika, 
-Bernhard Schölkopf, Alex Smola Klaus-Robert Müller, Matthias Scholz and Gunnar Rätsch as a project in DD2434 Machine
-Learning Advance Course during Winter 2016.}
-\sectionsep
-
 \runsubsection{Book Author Classification}
 \descript{Academic (Polytechnic University of Catalonia)} 
 \location{ May 2016 - Jun 2016  | Barcelona, Spain}
@@ -406,11 +403,7 @@ Benchmarking of NLP classification models applied to spanish literature book fra
 \descript{Academic (Karlsruhe Institute of Technology)} 
 \location{ Mar 2015 - Jul 2015  | Karlsruhe, Germany}
 \textsec{\href{https://upcommons.upc.edu/handle/2117/77499}{report}\\
-Bachelor thesis in Telecommunications Engineering as an exchange student at KIT.\\ 
-Deployment of a signal detector based on Energy Detection in order to take advantage of spectrum holes in a Cognitive 
-Relay scenario. Furthermore, the case with multiple antennas in reception (i.e. where the detection process occurs) are
-studied.
-}
+Bachelor thesis in Telecommunications Engineering as an exchange student at KIT.}
 
 \end{minipage}
 
