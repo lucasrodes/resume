@@ -83,7 +83,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{dark1}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Bla}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Bla}\fontsize{16pt}{24pt}\selectfont \raggedright}{} {0em}{}
 
 % Subeadings command
 %\titleformat{\subsection}{\color{dark3}
@@ -91,8 +91,8 @@ Last Updated on
 %\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
 %\titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
-\newcommand{\runsubsection}[1]{\color{dark3}
-\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\newcommand{\runsubsection}[1]{\color{dark3} % Add here \uppercase
+\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{\color{dark3}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
